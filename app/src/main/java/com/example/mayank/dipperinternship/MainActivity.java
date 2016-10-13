@@ -223,6 +223,9 @@ public class MainActivity extends AppCompatActivity
                 Toast.makeText(MainActivity.this, "Please Sign In First", Toast.LENGTH_SHORT).show();
 
         }else if (id == R.id.nav_about) {
+            Intent i = new Intent(MainActivity.this,About.class);
+            startActivity(i);
+            overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
 
         }
         else if (id == R.id.nav_notify) {
