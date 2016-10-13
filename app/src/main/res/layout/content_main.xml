@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.mayank.dipperinternship.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@drawable/newmain">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bidding"
+        android:id="@+id/bidding"
+        android:background="#f5f5f0"
+        android:typeface="serif"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="94dp"
+        android:elevation="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move your freight.Hassle-free."
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:typeface="sans"
+        android:layout_marginTop="47dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHIPPER"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:typeface="serif"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>

@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.mayank.dipperinternship.BiddingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#40bf80">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="BIDDING"
+                        android:textColor="#000000"
+                        android:textSize="30dp"
+                        android:typeface="serif"
+                        android:textStyle="bold"
+                        android:id="@+id/details"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"/>
+
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CreatedAt:"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:typeface="serif"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/pickupdate"
+                        android:hint="date"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/createdat"
+                        android:layout_marginLeft="5dp"
+                        android:hint="createdat"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:typeface="serif"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/name"
+                        android:text="Updated At:"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/updatedat"
+                        android:hint="updatedAt"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#40bf80">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Information"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+</android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/name"
+                        android:text="PostId:"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:typeface="serif"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/postid"
+                        android:layout_marginLeft="5dp"
+                        android:text="id"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:typeface="serif"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/email"
+                        android:layout_below="@+id/name"
+                        android:text="PickUp Date:"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:id="@+id/address"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/email"
+                        android:text="Info:"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/info"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/email"
+                        android:hint="info"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                    </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#40bf80">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Preffered Route"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+</android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="From:"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/from"
+                        android:layout_marginLeft="5dp"
+
+                        android:hint="from"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/name"
+                        android:text="To:"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/to"
+                        android:typeface="serif"
+                        android:hint="to"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#40bf80">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:typeface="serif"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Lowest Market Price(vehicle)"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold|italic"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"/>
+
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quoted Price:"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/quoted"
+                        android:typeface="serif"
+                        android:hint="quoted"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_marginLeft="5dp"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Update Price(INR):"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/updateprice"
+                        android:typeface="serif"
+                        android:hint="price"
+                        android:inputType="number"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#40bf80">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Highest Market Price(Load)"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:typeface="serif"
+                        android:textStyle="bold|italic"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"/>
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/name"
+                        android:text="Last Quoted Price:"/>
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/lastquoted"
+                        android:hint="lastquoted"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#40bf80">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Type Of Truck"
+                        android:typeface="serif"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold|italic"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal"/>
+
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/name"
+                        android:text="TruckID:"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/truckid"
+                        android:layout_marginLeft="5dp"
+                        android:typeface="serif"
+                        android:hint="truckid"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GPS:"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/gps"
+                        android:layout_marginLeft="5dp"
+                        android:hint="gps"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:singleLine="true"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/name"
+                        android:text="Status:"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:layout_marginLeft="5dp"
+                        android:singleLine="true"
+                        android:typeface="serif"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/status"
+                        android:hint="status"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Book"
+        android:layout_marginTop="10dp"
+    android:typeface="sans"
+    android:textColor="#ffffff"
+    android:textSize="30dp"
+        android:drawableRight="@drawable/ic_menu_send"
+    android:textStyle="bold"
+    android:background="#40bf80"
+    android:id="@+id/book"/>
+
+    </LinearLayout>
+</ScrollView>

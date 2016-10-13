@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "418613586459",
+    "firebase_url": "https://dipperinternship.firebaseio.com",
+    "project_id": "dipperinternship",
+    "storage_bucket": "dipperinternship.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418613586459:android:24d924fe4797b66c",
+        "android_client_info": {
+          "package_name": "com.example.mayank.dipperinternship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418613586459-5sir2hhh3m4ns12fu27h7ol541hnc6sv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mayank.dipperinternship",
+            "certificate_hash": "DC309E1F6E392D2CA3E5B42894CE1B2FF0CFC2FD"
+          }
+        },
+        {
+          "client_id": "418613586459-oartc3a67lv7596alccb471eclji90nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfllskdbpFo68i0v3IoOSQ85xsYWQH3ZQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418613586459-oartc3a67lv7596alccb471eclji90nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
