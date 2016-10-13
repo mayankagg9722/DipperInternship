@@ -18,7 +18,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         Notification.Builder notificationBuilder= new Notification.Builder(this);
         notificationBuilder.setContentTitle("Dipper Co.");
         notificationBuilder.setAutoCancel(true);
-        notificationBuilder.setSmallIcon(R.mipmap.ic_launcher);
+        notificationBuilder.setSmallIcon(R.drawable.ic_launcher);
         notificationBuilder.setContentText(remoteMessage.getNotification().getBody());
         notificationBuilder.setContentIntent(pendingIntent);
         NotificationManager notificationManager= (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);

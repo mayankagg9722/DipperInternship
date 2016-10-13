@@ -261,7 +261,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void show(){
-        notify.setSmallIcon(R.mipmap.ic_launcher);
+        notify.setSmallIcon(R.drawable.ic_launcher);
         notify.setContentTitle("Dipper Co.");
         String name="Mayank recieved message from Dipper.";
         notify.setContentText(name);
