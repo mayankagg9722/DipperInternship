@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="\n1.Get data from the server and update the UI.\n2.Have a “call to” feature.\n3.GCM notification/FCM Notification\n4.Google Login+Firebase Login\n5.Send location after every 15 minutes."
+            android:text="\n1.Get data from the server and update the UI.\n2.Have a “call to” feature.\n3.GCM notification/FCM Notification\n4.Google Login+Firebase Login\n5.Send location after every 15 minutes.\n6.Crashlytics added to the app.\n7.Google Firebase Analytics added to the app.\n8.Material design added accordingly."
 
             android:id="@+id/wf"
             android:layout_below="@id/fet"/>
